@@ -2,6 +2,10 @@
 
 Este projeto implementa um pipeline de dados para capturar, processar e analisar mensagens enviadas em grupos do **Telegram**. A arquitetura é dividida em duas partes: a **transacional**, que utiliza o **Telegram** como fonte de dados, e a **analítica**, baseada na **AWS** para armazenamento e processamento dos dados.
 
+## Diagrama da Arquitetura
+
+![Diagrama do Pipeline de Dados](https://github.com/GLK-7/TelegramDataPipeline/blob/main/Docs/image/diagram.png)
+
 ## Arquitetura do Pipeline
 
 ### 1. **Captura de Dados (Transacional)**
@@ -29,7 +33,5 @@ O projeto fornece uma solução escalável e automatizada para a análise de men
 - **Apache Parquet**
 - **SQL**
 
-## Documentação Adicional
-Consulte a [documentação oficial do Telegram Bot API](https://core.telegram.org/bots/api) para mais detalhes sobre como integrar o *bot* com a plataforma.
 
 ---
