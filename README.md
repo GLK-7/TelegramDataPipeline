@@ -33,5 +33,6 @@ O projeto fornece uma solução escalável e automatizada para a análise de men
 - **Apache Parquet**
 - **SQL**
 
+<a href="https://www.kaggle.com/code/glgodoi/telegram-data-pipeline">Link do Notebook Kaggle</a> 
 
 ---
